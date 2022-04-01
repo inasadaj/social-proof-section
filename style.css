@@ -1,14 +1,18 @@
 body{
-    max-width: 1024px;
+    /* max-width: 1024px; */
     font-family: 'Spartan', sans-serif;
 }
 .kuti{
     display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 .box1{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
+    width: 500px;
 }
 .box1 h2{
     color: hsl(300, 43%, 22%);
@@ -19,6 +23,12 @@ body{
     font-size: 15px;
     margin-top: 0;
 }
+.box2 .ratings{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 .vleresimet{
     background-color: hsl(290deg 30% 96%);
     color: hsl(300, 43%, 22%);
@@ -26,16 +36,26 @@ body{
     margin: 10px;
     padding: 3px;
     border-radius: 10px;
+    width: 400px;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+.vleresimet:nth-child(2){
+    margin-left: 20px;
+}
+.vleresimet:nth-child(3){
+    margin-left: 40px;
 }
 .reviews{
     display: flex;
-    
+    align-items: flex-start;
+    padding: 0 100px;
 }
 .person{
     font-size: 15px;
     background-color: hsl(300, 43%, 22%);
     margin-right: 20px;
-    padding: 15px;
+    padding: 30px;
     color: white;
     border-radius: 15px;
 }
@@ -62,10 +82,10 @@ body{
 } */
 
 .person:nth-child(2){
-    margin-top: 20px;
+    margin-top: 30px;
     box-sizing: border-box;
 }
 .person:nth-child(3){
-    margin-top: 30px;
+    margin-top: 60px;
     box-sizing: border-box;
 }
